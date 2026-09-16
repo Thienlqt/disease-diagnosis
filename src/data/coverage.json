@@ -1,0 +1,15 @@
+{
+  "coverage_version": "0.1.0",
+  "activation_status": "no_clinically_reviewed_content_active",
+  "topics": [
+    {"topic": "cough_general", "candidate_sources": ["nhs-cough", "medlineplus-cough"], "status": "gap_pending_rights_and_clinical_review"},
+    {"topic": "sore_throat_general", "candidate_sources": ["nhs-sore-throat", "medlineplus-sore-throat"], "status": "gap_pending_rights_and_clinical_review"},
+    {"topic": "child_specific_age_5_plus", "candidate_sources": [], "status": "explicit_gap"},
+    {"topic": "urgent_concerns", "candidate_sources": ["nhs-cough", "nhs-sore-throat"], "status": "draft_rules_only_not_clinically_reviewed"},
+    {"topic": "duration_and_progression", "candidate_sources": ["nhs-cough", "nhs-sore-throat"], "status": "gap_pending_review"},
+    {"topic": "hydration", "candidate_sources": [], "status": "explicit_gap"},
+    {"topic": "medical_background", "candidate_sources": [], "status": "explicit_gap"},
+    {"topic": "vietnam_care_navigation", "candidate_sources": ["vietnam-health-context"], "status": "context_only_not_a_clinical_protocol"}
+  ]
+}
+

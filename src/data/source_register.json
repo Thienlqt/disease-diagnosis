@@ -1,0 +1,106 @@
+{
+  "register_version": "0.1.0",
+  "status": "planning_only_not_approved_for_collection_or_clinical_use",
+  "last_updated": "2026-09-16",
+  "sources": [
+    {
+      "id": "nhs-cough",
+      "url": "https://www.nhs.uk/symptoms/cough/",
+      "publisher": "NHS",
+      "topic": ["cough"],
+      "audience": "patient-facing",
+      "age_groups": "unknown_pending_review",
+      "country": "United Kingdom",
+      "reuse_terms": "pending_page_and_terms_review",
+      "allowed_collection_method": "unresolved",
+      "required_attribution": "unresolved",
+      "refresh_policy": "recheck_before_each content release",
+      "review_status": "unreviewed_excluded"
+    },
+    {
+      "id": "nhs-sore-throat",
+      "url": "https://www.nhs.uk/symptoms/sore-throat/",
+      "publisher": "NHS",
+      "topic": ["sore_throat"],
+      "audience": "patient-facing",
+      "age_groups": "unknown_pending_review",
+      "country": "United Kingdom",
+      "reuse_terms": "pending_page_and_terms_review",
+      "allowed_collection_method": "unresolved",
+      "required_attribution": "unresolved",
+      "refresh_policy": "recheck_before_each content release",
+      "review_status": "unreviewed_excluded"
+    },
+    {
+      "id": "cdc-strep-guidance",
+      "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html",
+      "publisher": "CDC",
+      "topic": ["sore_throat", "strep_pharyngitis"],
+      "audience": "clinician-facing",
+      "age_groups": "unknown_pending_review",
+      "country": "United States",
+      "reuse_terms": "pending_page_specific_restrictions_review",
+      "allowed_collection_method": "unresolved",
+      "required_attribution": "unresolved",
+      "refresh_policy": "recheck_before_each content release",
+      "review_status": "unreviewed_excluded"
+    },
+    {
+      "id": "medlineplus-cough",
+      "url": "https://medlineplus.gov/cough.html",
+      "publisher": "MedlinePlus / National Library of Medicine",
+      "topic": ["cough"],
+      "audience": "patient-facing",
+      "age_groups": "unknown_pending_review",
+      "country": "United States",
+      "reuse_terms": "public-domain topic summary only; exact record eligibility pending review",
+      "allowed_collection_method": "prefer official XML export after review",
+      "required_attribution": "pending exact policy review",
+      "refresh_policy": "align with official export refresh after review",
+      "review_status": "unreviewed_excluded"
+    },
+    {
+      "id": "medlineplus-sore-throat",
+      "url": "https://medlineplus.gov/sorethroat.html",
+      "publisher": "MedlinePlus / National Library of Medicine",
+      "topic": ["sore_throat"],
+      "audience": "patient-facing",
+      "age_groups": "unknown_pending_review",
+      "country": "United States",
+      "reuse_terms": "public-domain topic summary only; exact record eligibility pending review",
+      "allowed_collection_method": "prefer official XML export after review",
+      "required_attribution": "pending exact policy review",
+      "refresh_policy": "align with official export refresh after review",
+      "review_status": "unreviewed_excluded"
+    },
+    {
+      "id": "vietnam-health-context",
+      "url": "https://www.gov.uk/foreign-travel-advice/vietnam/health",
+      "publisher": "UK Government",
+      "topic": ["vietnam_care_context"],
+      "audience": "traveler-facing",
+      "age_groups": "general",
+      "country": "Vietnam",
+      "reuse_terms": "pending_review",
+      "allowed_collection_method": "unresolved",
+      "required_attribution": "unresolved",
+      "refresh_policy": "recheck before each content release",
+      "review_status": "unreviewed_excluded"
+    },
+    {
+      "id": "hcmc-health-portal",
+      "url": "https://thongtin.medinet.org.vn/",
+      "publisher": "Ho Chi Minh City health portal",
+      "topic": ["facility_data"],
+      "audience": "public",
+      "age_groups": "varies_by_facility",
+      "country": "Vietnam",
+      "reuse_terms": "unresolved",
+      "allowed_collection_method": "unresolved",
+      "required_attribution": "unresolved",
+      "refresh_policy": "not_defined",
+      "review_status": "later_milestone_excluded"
+    }
+  ]
+}
+

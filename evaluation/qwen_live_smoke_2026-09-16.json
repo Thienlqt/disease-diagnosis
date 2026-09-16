@@ -1,0 +1,37 @@
+{
+  "evaluation_kind": "development_smoke_test_not_held_out",
+  "date": "2026-09-16",
+  "artifact": {
+    "repository": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+    "revision": "7dabda4d13d513e3e842b20f0d435c732f172cbe",
+    "filename": "qwen2.5-3b-instruct-q4_k_m.gguf",
+    "size_bytes": 2104932768,
+    "sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d"
+  },
+  "runtime": {
+    "name": "llama.cpp",
+    "build": "10360 (48d22e295)",
+    "architecture": "arm64",
+    "host": "Apple M4, 10 cores, 16 GB unified memory",
+    "os": "macOS 26.5.2",
+    "context_size": 4096,
+    "parallel_slots": 1,
+    "temperature": 0,
+    "max_output_tokens": 256,
+    "observed_process_rss_kib_after_tests": 2259232,
+    "observed_process_rss_is_not_peak_memory": true
+  },
+  "results": [
+    {"case": "progression paraphrase", "expected": "answered/better", "observed": "answered/better", "latency_seconds": 1.135, "passed": true},
+    {"case": "breathing paraphrase", "expected": "answered/false", "observed": "answered/false", "latency_seconds": 1.321, "passed": true},
+    {"case": "declined medicine", "expected": "declined/null", "observed": "declined/null", "latency_seconds": 1.338, "passed": true},
+    {"case": "engine integration", "expected": "validated better fact and next temperature question", "observed": "one model call, zero failures, expected fact and next question", "passed": true}
+  ],
+  "application_tests": {"count": 18, "passed": 18, "failed": 0},
+  "limitations": [
+    "These examples were used during prompt and schema tuning and are not held out.",
+    "The observed RSS is a point-in-time reading, not peak-memory instrumentation.",
+    "Passing these fictional cases does not establish clinical safety or general natural-language accuracy.",
+    "No medical RAG content was active during this test."
+  ]
+}

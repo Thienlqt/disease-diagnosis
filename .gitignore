@@ -1,0 +1,34 @@
+# macOS and editor metadata
+.DS_Store
+**/.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Python caches, environments, builds, and coverage
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+.venv/
+venv/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Generated conversations and evaluation output
+reports/
+model-evaluation-results/
+
+# Local model artifacts and llama.cpp credentials
+models/
+*.gguf
+*.gguf.part

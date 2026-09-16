@@ -1,0 +1,122 @@
+[
+  {
+    "id": "Q01",
+    "information_type": "age",
+    "wording": "How old is the patient?",
+    "clarification": "Please give the patient's age in completed years.",
+    "applicable_symptoms": [],
+    "per_symptom": false,
+    "source": "MVP.md section 4",
+    "review_status": "draft_unreviewed"
+  },
+  {
+    "id": "Q02",
+    "information_type": "breathing_difficulty",
+    "wording": "Is the patient having any difficulty breathing right now?",
+    "clarification": "Please answer yes, no, don't know, or prefer not to answer. Pain or irritation is different from difficulty breathing.",
+    "applicable_symptoms": ["cough", "sore_throat"],
+    "per_symptom": false,
+    "source": "MVP.md section 4",
+    "review_status": "draft_unreviewed"
+  },
+  {
+    "id": "Q03",
+    "information_type": "swallow_saliva",
+    "wording": "Can the patient swallow their saliva?",
+    "clarification": "Can they swallow saliva, even if it hurts, or are they unable to swallow it?",
+    "applicable_symptoms": ["sore_throat"],
+    "per_symptom": false,
+    "source": "MVP.md section 4",
+    "review_status": "draft_unreviewed"
+  },
+  {
+    "id": "Q04",
+    "information_type": "onset",
+    "wording": "When did the {symptom_label} start, and about how long has it been present?",
+    "clarification": "Please give your best estimate for when the {symptom_label} started. It is also fine to say you don't know.",
+    "applicable_symptoms": ["cough", "sore_throat"],
+    "per_symptom": true,
+    "source": "MVP.md section 4",
+    "review_status": "draft_unreviewed"
+  },
+  {
+    "id": "Q05",
+    "information_type": "progression",
+    "wording": "Is the {symptom_label} getting better, getting worse, or staying about the same?",
+    "clarification": "For the {symptom_label}, is it better, worse, or about the same compared with when it started?",
+    "applicable_symptoms": ["cough", "sore_throat"],
+    "per_symptom": true,
+    "source": "MVP.md section 4",
+    "review_status": "draft_unreviewed"
+  },
+  {
+    "id": "Q06",
+    "information_type": "temperature",
+    "wording": "Has the patient's temperature been measured? If so, what was the reading, unit, and when was it measured?",
+    "clarification": "Please include the number and whether it was Celsius or Fahrenheit, if known. A partial answer will be kept.",
+    "applicable_symptoms": ["cough", "sore_throat"],
+    "per_symptom": false,
+    "source": "MVP.md section 4",
+    "review_status": "draft_unreviewed"
+  },
+  {
+    "id": "Q07",
+    "information_type": "runny_nose",
+    "wording": "Does the patient have a runny nose?",
+    "clarification": "Is the nose running? A blocked nose by itself is not recorded as a runny nose.",
+    "applicable_symptoms": ["cough", "sore_throat"],
+    "per_symptom": false,
+    "source": "MVP.md section 4",
+    "review_status": "draft_unreviewed"
+  },
+  {
+    "id": "Q08",
+    "information_type": "fluid_intake",
+    "wording": "Is the patient drinking about their usual amount of fluids?",
+    "clarification": "Would you describe fluid intake as usual, reduced, or unknown?",
+    "applicable_symptoms": ["cough", "sore_throat"],
+    "per_symptom": false,
+    "source": "MVP.md section 4",
+    "review_status": "draft_unreviewed"
+  },
+  {
+    "id": "Q09",
+    "information_type": "urination_change",
+    "wording": "Has there been any change in how often or how much the patient urinates?",
+    "clarification": "Please answer no change, less, more, don't know, or prefer not to answer.",
+    "applicable_symptoms": ["cough", "sore_throat"],
+    "per_symptom": false,
+    "source": "MVP.md section 4",
+    "review_status": "draft_unreviewed"
+  },
+  {
+    "id": "Q10",
+    "information_type": "medical_conditions",
+    "wording": "Does the patient have any ongoing medical conditions?",
+    "clarification": "You can list them, say none, say you don't know, or prefer not to answer.",
+    "applicable_symptoms": ["cough", "sore_throat"],
+    "per_symptom": false,
+    "source": "MVP.md section 4",
+    "review_status": "draft_unreviewed"
+  },
+  {
+    "id": "Q11",
+    "information_type": "medicines",
+    "wording": "Is the patient currently taking any medicines?",
+    "clarification": "Please list them if known. An unnamed medicine can be recorded as unidentified.",
+    "applicable_symptoms": ["cough", "sore_throat"],
+    "per_symptom": false,
+    "source": "MVP.md section 4",
+    "review_status": "draft_unreviewed"
+  },
+  {
+    "id": "Q12",
+    "information_type": "smoke_dust_exposure",
+    "wording": "Has the patient recently been around smoke or a lot of dust?",
+    "clarification": "Please answer for known recent exposure; the prototype will not infer it from a job or address.",
+    "applicable_symptoms": ["cough", "sore_throat"],
+    "per_symptom": false,
+    "source": "MVP.md section 4",
+    "review_status": "draft_unreviewed"
+  }
+]

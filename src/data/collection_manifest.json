@@ -1,0 +1,13 @@
+{
+  "manifest_version": "0.1.0",
+  "created": "2026-09-16",
+  "collection_status": "not_started_pending_rights_and_clinical_review",
+  "successful_documents": [],
+  "failed_documents": [],
+  "excluded_documents": [
+    {"source_id": "all_registered_sources", "reason": "No URL has yet passed both reuse/access review and clinical activation review."}
+  ],
+  "active_chunk_count": 0,
+  "content_hash_algorithm": "sha256"
+}
+

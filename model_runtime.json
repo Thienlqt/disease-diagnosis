@@ -1,0 +1,23 @@
+{
+  "model_id": "qwen2.5-3b-instruct-q4_k_m",
+  "repository": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+  "revision": "7dabda4d13d513e3e842b20f0d435c732f172cbe",
+  "filename": "qwen2.5-3b-instruct-q4_k_m.gguf",
+  "quantization": "Q4_K_M",
+  "size_bytes": 2104932768,
+  "sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+  "download_url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF/resolve/7dabda4d13d513e3e842b20f0d435c732f172cbe/qwen2.5-3b-instruct-q4_k_m.gguf?download=true",
+  "license": "Qwen Research License",
+  "runtime": "llama.cpp",
+  "tested_runtime_build": "10360 (48d22e295)",
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8081,
+    "context_size": 4096,
+    "parallel_slots": 1,
+    "model_alias": "qwen2.5-3b-instruct-q4_k_m",
+    "api_key_file": "models/.llama_api_key",
+    "temperature": 0,
+    "max_output_tokens": 256
+  }
+}
